@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip-Calculator</title>
+    <link rel="stylesheet" href="tip.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculate the Tip</h1>
+        <form action="/" name="tipcalculator">
+
+            <div class="lines">
+                <span>Bill Amount :- Rs </span><input type="text" placeholder="Enter your Bill Amount Rs" class="bill" id="amount"> <br>
+            </div>
+         
+            <div class="lines">
+                <span>Tip percent :- % </span><input type="text" placeholder="Enter your Tip percent %" class="bill" id="tip"> <br>
+            </div>
+
+            <div class="lines">
+                <span>Distribution among People :- </span><input type="text" placeholder="Enter number of People" class="bill" id="Distribution"> <br>
+            </div>
+ 
+            <div class="lines">
+                <input type="button" value="Calculate" id="submit" onclick="calculate()"> <input type="button" onclick="clear()" id="clear" value="Clear"> <br>
+            </div>
+
+            <div class="lines">
+                <input type="text" name="pay_amount" id="to_pay" class="bill" placeholder="Tip to Pay">
+            </div> 
+        </form>
+    </div>
+</body>
+<script src="tip.js"></script>
+</html>

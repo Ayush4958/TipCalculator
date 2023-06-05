@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(7, 88, 88);
+}
+
+.container{
+    margin: 48px 25px;
+    text-align: center;
+    font-family: sans-serif;
+    border: solid 4px black;
+    box-shadow: 10px 10px 8px grey ;
+    border-radius: 12px;
+}
+
+.container h1{
+    margin: 25px 4px;
+    font-size: 3.8rem;
+    color: rgb(210, 255, 181);
+}
+
+.lines{
+    margin: 15px 40px;
+    padding: 10px 15px;
+    font-size: 1.6rem;
+    color: rgb(210, 255, 181);
+}
+
+.lines input{
+    padding: 5px 15px;
+    font-size: 1.2rem;
+    border-radius: 14px;
+    color: rgb(210, 255, 181);
+    cursor: pointer;
+}
+
+.lines input[type=text]:hover{
+    background-color: rgb(13, 68, 67);
+    color: rgb(249, 249, 249);
+}
+
+.lines input[type=button]{
+    margin: 0px 50px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.lines input[type=button]:hover{
+    background-color: rgb(8, 59, 59);
+    color: white;
+}
