@@ -8,6 +8,7 @@
 .container{
     margin: 48px 25px;
     text-align: center;
+    align-item: center;
     font-family: sans-serif;
     border: solid 4px black;
     box-shadow: 10px 10px 8px grey ;
